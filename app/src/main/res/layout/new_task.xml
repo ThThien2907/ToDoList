@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edt_new_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="New task"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_new_task"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:text="Lưu"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_primary"
+        android:textColor="@color/white"
+        android:enabled="false"/>
+</RelativeLayout>
